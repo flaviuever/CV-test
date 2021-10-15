@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   background: rgb(20, 20, 20);
+}
+
+.container{
+    display: flex;
+    border-right: 1px solid black;
+    width: 794px;
+    height: 1123px;
+    background: white;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #283442;
+    height: 100%;
+    width: 200px;
+
+    position: relative;
+}
+
+.left img{
+    position: absolute;
+    left: 25px;
+    top: 10%;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.left h2{
+    position: absolute;
+    top: 25%;
+    left: 40px;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.left h3{
+     position: absolute;
+     top: 28%;
+     left: 58px;  
+     color:#fff; 
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     font-weight: 200;
+}
+
+.left p{
+    position: absolute;
+    top: 35%;
+    left: 20px;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.left ul {
+    position: absolute;
+    top: 45%;
+    left: 45px;
+    list-style: none;
+}
+
+.left ul li{
+    padding: 20px 10px;
+    color: #fff;
+    
+}
+
+.left ul li a{
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.right  {
+    display: flex;
+    justify-content: center;
+}
+ 
+
+.left li .fa{
+    color: #fff;
+    position: absolute;
+    left: -25px;
+    font-size: 30px;
+    
+}
+
+.left li .fa-map-marker{
+    position: absolute;
+    left: -15px;
+    font-size: 30px;
+}
+
+.left #yellow-text{
+
+    position: absolute;
+    top: 80%;
+    left: 50px;
+    color: yellow;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+
+/********    RIGHT SIDE    **********/
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 598px;
+    height: 1118px;
+
+    position: relative;
+}
+
+.right .lines{
+    width: 530px;
+    border: 2px solid #283442;
+    position: relative;
+}
+
+
+/**********    EXPERIENCE   *********/
+
+.experience{
+    height: 250px;
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+    position: absolute;
+    top: 3%;
+    left: 9%;
+}
+
+#title-1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    color: #283442;
+ }
+
+ .right .exp-hr{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    
+}
+
+.project-manager{
+    padding-left: 5px;
+    height: 100px;
+    width: 250px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+
+.project-manager h3{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: 800;
+    color: #283442;
+}
+
+.project-manager p{
+    font-size: 12px;
+    color: #283442;
+    padding-bottom: 3px;
+}
+
+.project-manager ul{
+    padding-left: 15px;
+}
+
+.project-manager ul li{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+
+
+/*************       EDUCATION       ***********/
+
+
+.education{
+    height: 250px;
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+
+#title-2{
+    text-transform: uppercase;
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    color: #283442;
+ }
+
+ .right .edu-hr{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.university{
+    font-size: 5px;
+    padding-left: 5px;
+    padding-top: 10px;
+    height: 110px;
+    width: 260px;
+    font-size: 11px;
+}
+
+.university h3{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: 800;
+    color: #283442;
+}
+
+.university p{
+    font-size: 12px;
+    color: #283442;
+    padding-bottom: 3px;
+}
+
+.university ul{
+    padding-left: 15px;
+
+}
+
+.university ul li{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+/**********    AWARDS     *********/
+
+.awards{
+    height: 250px;
+    width: 500px;
+
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    
+}
+ 
+.awards-child{
+    padding-left: 5px;
+    padding-top: 10px;
+    height: 110px;
+    width: 530px;
+    font-size: 11px;
+}
+
+#title-3{
+    text-transform: uppercase;
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    color: #283442;
+    margin-top: 10px;
+ }
+
+ .right .awa-hr{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+ }
+
+ .awards-child h3{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-weight: 800;
+    color: #283442;
+ }
+
+ .awards-child p{
+    font-size: 12px;
+    color: #283442;
+    padding-bottom: 10px;
+ }
+
+ .awards-child #about{
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 13px;
+ }
+
+
+ /********     SKILLS     ********/
+
+
+ #title-4 {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: #283442;
+    text-transform: uppercase;
+ }
+
+ .right .ski-hr{
+    position: absolute;
+    width: 260px;
+    bottom: 17%;
+    left: 10%;
+ }
+
+ .skills-bar{
+    display: grid;
+    height: 100%;
+    height: 150px;
+    width: 240px;
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+ }
+
+ .skills .pro{
+    width: 120px;
+    height: 10px;
+    background: #283442;
+    overflow: hidden;
+    border-radius: 2px; 
+ }
+
+ .bar span{
+     position: absolute;
+     left: 0%;
+     font-size: 12px;
+     font-weight: 800;
+     
+ }
+
+.skills-bar .bar .progress-line{
+    margin-top: 2px;
+    position: absolute;
+    right: -20px;
+    height: 10px;
+    width: 130px;
+    background-color: gray;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.bar .progress-line .b1{
+    height: 100%;
+    width: 80%;
+    background:#283442;
+    position: absolute;
+}
+
+.bar .progress-line .b2{
+    height: 100%;
+    width: 80%;
+    background:#283442;
+    position: absolute;
+}
+
+.bar .progress-line .b3{
+    height: 100%;
+    width: 90%;
+    background:#283442;
+    position: absolute;
+}
+
+.bar .progress-line .b4{
+    height: 100%;
+    width: 93%;
+    background:#283442;
+    position: absolute;
+}
+
+.bar .progress-line .b5{
+    height: 100%;
+    width: 87%;
+    background:#283442;
+    position: absolute;
+}
+
+/**********     REFERENCES     *********/
+
+#title-5{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    color: #283442;
+    text-transform: uppercase;
+}
+
+.right .ref-hr{
+    position: absolute;
+    bottom: 17%;
+    right: 2%;
+    width: 210px;
+}
+
+.references{
+    position: absolute;
+    bottom: 3%;
+    right: 10%;
+}
+
+.references ul{
+    list-style: none;
+}
+
+.references ul li a{
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.right a .fa{
+    font-size: 36px;
+    position: relative;
+}
+
+.right a .fa-suitcase{
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
+.right a .fa-certificate{
+    position: absolute;
+    top: 52%;
+    left: 2%;
+}
+.right a .fa-graduation-cap{
+    position: absolute;
+    top: 27%;
+    left: 1%;
+}
+.right a .fa-wrench{
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    font-size: 35px;
+}
+.right a .fa-clipboard{
+    position: absolute;
+    top: 80.5%;
+    right: 38%;
+    font-size: 30px;
+}
+
+@media screen and (max-width:794px){
+    .container {
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .left{
+        position: fixed;
+        left: 0;
+        z-index: 1;
+    }
+
+}
